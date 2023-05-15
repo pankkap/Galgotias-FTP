@@ -1,3 +1,16 @@
+// Function to create Class - ES5
+
+function Person() {
+    // properties
+    this.name = " Pankaj";
+    this.age = 30;
+  
+    // methods
+    this.details = function () {
+      return "Name = " + this.name + " Age: " + this.age;
+    };
+  }
+var obj1 = new Person();
 
 
 let btn = document.querySelector('button');
@@ -21,6 +34,7 @@ btn.onclick = function(e){
 }
 
 //ES6 Class concept
+
 class Employee {
     constructor(name, age, salary=0) {
         this.name = name
