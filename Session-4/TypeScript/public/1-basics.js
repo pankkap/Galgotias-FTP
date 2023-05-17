@@ -1,0 +1,18 @@
+let myName = "Pankaj";
+let agee = 30;
+let isActive = true;
+let adddress;
+adddress = "Bengaluru";
+let mobile;
+mobile = 9876543210;
+let isMarried;
+isMarried = true;
+let EmpId;
+EmpId = "Gal1010";
+EmpId = 1010;
+let message;
+message = { x: 10 };
+message = 10;
+message = "10";
+message = true;
+message = [12345, 323];

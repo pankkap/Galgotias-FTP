@@ -1,5 +1,4 @@
-// const api_url = "https://jsonplaceholder.typicode.com/users"
-const api_url = "https://api.covid19api.com/summary"
+const api_url = "https://jsonplaceholder.typicode.com/users"
 
 
 function getApiData(url){
@@ -10,11 +9,9 @@ fetch(url)
     // displayDataTable(res)
 })
 .catch(err=>console.log(err))
-
-
 }
-
 getApiData(api_url)
+
 
 
 function  displayDataTable(apidata)
